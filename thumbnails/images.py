@@ -1,6 +1,7 @@
 import os
 
-from django.utils.encoding import smart_text, python_2_unicode_compatible
+from six import python_2_unicode_compatible
+from django.utils.encoding import smart_text
 
 from . import conf
 from . import backends
